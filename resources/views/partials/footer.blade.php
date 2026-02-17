@@ -7,7 +7,7 @@
         alt="Windows logo">
       <img class="w-6.25 h-6.25 xl:w-15.5 xl:h-15.5 hover:scale-110 ease-in-out duration-150" src="imgs/MAC OS logo.png"
         alt="Apple logo">
-      <img class="w-19.5 h-6.75 xl:w-48 xl:h-16 hover:scale-110 ease-in-out duration-150" src="imgs/app store logo.png"
+      <img class="w-19.5 h-6.75 xl:w-48 xl:h-16 hover:scale-110 ease-in-out duration-150" src="{{ asset('images/app store logo.png') }}"
         alt="app store icon">
       <img class="xl:w-59 xl:h-17.5 hover:scale-110 ease-in-out duration-150" src="imgs/google play logo.png"
         alt="google play icon">
