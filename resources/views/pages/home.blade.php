@@ -8,9 +8,9 @@
             class="flex justify-center items-center w-full h-screen font-[cinzel] fixed -top-7.5 right-0 z-50 xl:scale-65 xl:right-10 xl:top-0 xl:w-110 xl:rounded-full 2xl:rounded-full xl:h-233 2xl:top-2 2xl:scale-80 hidden">
             <div
                 class="w-full h-218 xl:h-250 2xl:h-250 bg-[#BEA301] relative flex flex-col items-center justify-center gap-5 xl:rounded-sm 2xl:rounded-sm">
-                <a href="deck.html" class="xl:hidden"> <img class="absolute top-0 right-0" src="imgs/cart-deck.png"
+                <a href="deck.html" class="xl:hidden"> <img class="absolute top-0 right-0" src="{{ asset('images/cart-deck.png') }}"
                         alt="My deck icon"></a>
-                <a href="play.html" class="xl:hidden"> <img class="absolute top-0 left-0" src="imgs/play icon dark.png"
+                <a href="play.html" class="xl:hidden"> <img class="absolute top-0 left-0" src="{{ asset('images/play icon dark.png') }}"
                         alt="play icon"></a>
                 <h1 class="text-black text-3xl font-bold">Shopping Cart</h1>
                 <hr class="w-98 border">
@@ -28,32 +28,32 @@
         </section>
         <section>
             <div class="hidden lg:flex flex-col 2xl:items-center">
-                <img class="xl:w-278 xl:h-262 " src="imgs/home-hero-img.png" alt="the hero image of the home page">
+                <img class="xl:w-278 xl:h-262 " src="{{ asset('images/home-hero-img.png') }}" alt="the hero image of the home page">
                 <p class="text-white absolute text-4xl left-90 top-170 2xl:left-180 2xl:top-170">FICTIONAL CARDS GAME</p>
                 <div class="flex absolute left-120 top-190 2xl:left-200 2xl:top-190  items-center gap-5 ">
-                    <img class="hover:scale-110 ease-in-out duration-150 cursor-pointer" src="imgs/play-button.png"
+                    <img class="hover:scale-110 ease-in-out duration-150 cursor-pointer" src="{{ asset('images/play-button.png') }}"
                         alt="Play button">
                     <p class="text-[#937D00] text-2xl 2xl:text-4xl">Play Demo</p>
                 </div>
             </div>
             <div class="flex flex-col justify-center items-center md:hidden lg:hidden xl:hidden 2xl:hidden">
-                <img class="w-35" src="imgs/logo.png" alt="ETERNALS SUMMONERS logo">
+                <img class="w-35" src="{{ asset('images/logo.png') }}" alt="ETERNALS SUMMONERS logo">
                 <p class="text-white pt-3 pb-7 text-xl">FICTIONAL CARDS GAME</p>
-                <img src="imgs/hero img mobile.png" alt="Solar Titan">
+                <img src="{{ asset('images/hero img mobile.png') }}" alt="Solar Titan">
                 <div class="absolute top-160 flex items-center gap-5 active:scale-125">
-                    <img class="scale-80" src="imgs/play-button.png" alt="play button">
+                    <img class="scale-80" src="{{ asset('images/play-button.png') }}" alt="play button">
                     <p class="text-[#937D00] text-2xl ">Play Demo</p>
                 </div>
                 <a href="deck.html"> <img class="absolute top-0 right-0 md:hidden lg:hidden xl:hidden 2xl:hidden"
-                        src="imgs/my deck mobile onpage icon.png" alt="My deck icon"></a>
+                        src="{{ asset('images/my deck mobile onpage icon.png') }}" alt="My deck icon"></a>
                 <a href="play.html"> <img class="absolute top-0 left-0 md:hidden lg:hidden xl:hidden 2xl:hidden"
-                        src="imgs/play icon.png" alt="Play icon"></a>
+                        src="{{ asset('images/play icon.png') }}" alt="Play icon"></a>
             </div>
         </section>
-        <section class="flex overflow-x-auto -mt-2 xl:-mt-7">
-            <img src="imgs/slide 1.png" alt=" Monster">
-            <img src="imgs/slide 2.png" alt="Flame beast">
-            <img src="imgs/slide 3.png" alt="Carnage">
+        <section class="flex overflow-x-auto [scrollbar-width:none] -mt-2 xl:-mt-7">
+            <img src="{{ asset('images/slide 1.png') }}" alt=" Monster">
+            <img src="{{ asset('images/slide 2.png') }}" alt="Flame beast">
+            <img src="{{ asset('images/slide 3.png') }}" alt="Carnage">
         </section>
         <section class="flex flex-col items-center">
             <h1 class="text-3xl text-[#AB9100] py-5 xl:text-6xl">Discover Our World</h1>
@@ -62,7 +62,7 @@
                     class=" w-86 h-114 bg-black justify-center items-center relative hidden lg:flex 2xl:scale-140 hover:scale-145 ease-in-out duration-150 cursor-pointer">
                     <div class=" border-3 border-[#9B8400] w-79 h-109 flex flex-col items-center pt-2">
                         <div class="border-2 border-[#9B8400] w-74 h-69 ">
-                            <img class="w-73 h-68" src="imgs/legendary card bg.png" alt="golden glow">
+                            <img class="w-73 h-68" src="{{ asset('images/legendary card bg.png') }}" alt="golden glow">
                             <div class="w-8 h-8 border border-[#9B8400] bg-black relative bottom-68.5 right-0.5 rotate-45">
                                 <p
                                     class="font-[Maname] text-[#A38B00]  text-3xl absolute -top-3 -left-1 right-3 bottom-4 -rotate-45">
@@ -96,7 +96,7 @@
                             <div class="flex flex-col absolute -top-6.5 -left-16.5 items-center">
                                 <p class="text-[#BEA301]">900 Pt</p>
                                 <div class="border border-[#BEA301] rounded-full w-14 h-14 -mt-1">
-                                    <img class="scale-60 " src="imgs/ATK.png" alt="two swords">
+                                    <img class="scale-60 " src="{{ asset('images/ATK.png') }}" alt="two swords">
                                 </div>
                             </div>
                             <p class="text-xs text-[#BEA301] pt-5">“<span class="text-white">Void-forged
@@ -104,11 +104,11 @@
                             <div class="flex flex-col absolute -top-6.5 -right-16.5 items-center">
                                 <p class="text-[#BEA301]">1500 Pt</p>
                                 <div class="border border-[#BEA301] rounded-full w-14 h-14 -mt-1">
-                                    <img class="scale-60 " src="imgs/DEF.png" alt="Shield">
+                                    <img class="scale-60 " src="{{ asset('images/DEF.png') }}" alt="Shield">
                                 </div>
                             </div>
                         </DIv>
-                        <img class="absolute scale-65 -top-16" src="imgs/voidblade champion.png"
+                        <img class="absolute scale-65 -top-16" src="{{ asset('images/voidblade champion.png') }}"
                             alt="Voidblade Champion">
                         <hr class="absolute border border-[#9B8400] w-74 border-solid bottom-39.5">
                     </div>
@@ -117,7 +117,7 @@
                     class=" w-86 h-114 bg-black flex justify-center items-center relative 2xl:scale-140 hover:scale-145 ease-in-out duration-150 cursor-pointer">
                     <div class=" border-3 border-[#9B8400] w-79 h-109 flex flex-col items-center pt-2">
                         <div class="border-2 border-[#9B8400] w-74 h-69 ">
-                            <img class="w-73 h-68" src="imgs/legendary card bg.png" alt="golden glow">
+                            <img class="w-73 h-68" src="{{ asset('images/legendary card bg.png') }}" alt="golden glow">
                             <div class="w-8 h-8 border border-[#9B8400] bg-black relative bottom-68.5 right-0.5 rotate-45">
                                 <p
                                     class="font-[Maname] text-[#A38B00]  text-3xl absolute -top-3 -left-1 right-3 bottom-4 -rotate-45">
@@ -151,7 +151,7 @@
                             <div class="flex flex-col absolute -top-6.5 -left-12 items-center">
                                 <p class="text-[#BEA301]">1000 Pt</p>
                                 <div class="border border-[#BEA301] rounded-full w-14 h-14 -mt-1">
-                                    <img class="scale-60 " src="imgs/ATK.png" alt="two swords">
+                                    <img class="scale-60 " src="{{ asset('images/ATK.png') }}" alt="two swords">
                                 </div>
                             </div>
                             <p class="text-xs text-[#BEA301] pt-5 scale-87">"<span class="text-white">Solar-born divine
@@ -159,11 +159,11 @@
                             <div class="flex flex-col absolute -top-6.5 -right-12 items-center">
                                 <p class="text-[#BEA301]">2000 Pt</p>
                                 <div class="border border-[#BEA301] rounded-full w-14 h-14 -mt-1">
-                                    <img class="scale-60 " src="imgs/DEF.png" alt="Shield">
+                                    <img class="scale-60 " src="{{ asset('images/DEF.png') }}" alt="Shield">
                                 </div>
                             </div>
                         </DIv>
-                        <img class="absolute scale-86 -top-2 -left-2" src="imgs/Solar titan.png" alt="Solar Titan">
+                        <img class="absolute scale-86 -top-2 -left-2" src="{{ asset('images/Solar titan.png') }}" alt="Solar Titan">
                         <hr class="absolute border border-[#9B8400] w-74 border-solid bottom-39.5">
                     </div>
                 </div>
@@ -171,7 +171,7 @@
                     class=" w-86 h-114 bg-black hidden lg:flex justify-center items-center relative 2xl:scale-140 hover:scale-145 ease-in-out duration-150 cursor-pointer">
                     <div class=" border-3 border-[#9B8400] w-79 h-109 flex flex-col items-center pt-2">
                         <div class="border-2 border-[#9B8400] w-74 h-69 ">
-                            <img class="w-73 h-68" src="imgs/legendary card bg.png" alt="golden glow">
+                            <img class="w-73 h-68" src="{{ asset('images/legendary card bg.png') }}" alt="golden glow">
                             <div class="w-8 h-8 border border-[#9B8400] bg-black relative bottom-68.5 right-0.5 rotate-45">
                                 <p
                                     class="font-[Maname] text-[#A38B00]  text-3xl absolute -top-3 -left-1 right-3 bottom-4 -rotate-45">
@@ -205,7 +205,7 @@
                             <div class="flex flex-col absolute -top-7 -left-17 items-center">
                                 <p class="text-[#BEA301]">850 Pt</p>
                                 <div class="border border-[#BEA301] rounded-full w-14 h-14 -mt-1">
-                                    <img class="scale-60 " src="imgs/ATK.png" alt="two swords">
+                                    <img class="scale-60 " src="{{ asset('images/ATK.png') }}" alt="two swords">
                                 </div>
                             </div>
                             <p class="text-xs text-[#BEA301] pt-5 scale-87">"<span class="text-white">Comet-born
@@ -214,11 +214,11 @@
                             <div class="flex flex-col absolute -top-7 -right-17 items-center">
                                 <p class="text-[#BEA301]">1200 Pt</p>
                                 <div class="border border-[#BEA301] rounded-full w-14 h-14 -mt-1">
-                                    <img class="scale-60 " src="imgs/DEF.png" alt="Shield">
+                                    <img class="scale-60 " src="{{ asset('images/DEF.png') }}" alt="Shield">
                                 </div>
                             </div>
                         </DIv>
-                        <img class="absolute scale-74 -top-10 -left-2" src="imgs/infernal herald.png"
+                        <img class="absolute scale-74 -top-10 -left-2" src="{{ asset('images/infernal herald.png') }}"
                             alt="infernal herald">
                         <hr class="absolute border border-[#9B8400] w-74 border-solid bottom-39.5">
                     </div>
